@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode
+*.xcuserstate
+xcuserdata/
+DerivedData/
+*.xcworkspace/xcuserdata/
+
+# Go
+server/bin/
+
+# Swift Package Manager
+ios-benchmark/.build/
+ios-benchmark/SourcePackages/
