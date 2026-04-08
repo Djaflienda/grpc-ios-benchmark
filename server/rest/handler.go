@@ -2,15 +2,15 @@ package rest
 
 import (
 	"net/http"
-
+	"benchmark/models"
 	"github.com/gin-gonic/gin"
 )
 
 type Handler struct {
-	products interface{}
+	products []models.Product
 }
 
-func NewHandler(products interface{}) *Handler {
+func NewHandler(products []models.Product) *Handler {
 	return &Handler{products: products}
 }
 
